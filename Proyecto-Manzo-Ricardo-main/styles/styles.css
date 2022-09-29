@@ -9,40 +9,42 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 .header{
-    background-color: black;
+    background: rgb(46,47,91);
+background: linear-gradient(94deg, rgba(46,47,91,1) 52%, rgba(80,85,129,1) 100%);
     max-width: 100vw;
 }
 body{
-    background-color: antiquewhite;
+    background-color: #FAF0Ca;
     height: 100vh;
     width: 100vw;
     
 }
-.Logo{
+.logo{
     overflow: visible;
     padding-bottom: 30px;
     
 }
 
-.Logo img{
-        width: 105px;
-        height: 84px;
+.logo img{
+        width: 95px;
+        height: 79px;
         padding-top: -56px;
         padding-left: 5px;
         margin-bottom: -55px;
+        border-radius: 50%;
         
     }
     
-    .Nav{
-        padding: 1PX 80px 20px 128px;
+    .nav{
+        padding: 1PX 20px 20px 128px;
         margin-top: -35px;
-        margin-left: -47px;
+        margin-left: 7px;
 
         
     }
     
     
-    .NavPalabras{
+    .navPalabras{
         display: flex;
         float:inline-start;
         padding-right: 510px;
@@ -50,21 +52,21 @@ body{
             
     }
     
-    .Nav a{
+    .nav a{
         padding-right: 20px;
         padding-left: 10px;
         padding-top: 5px;
         padding-bottom: 5px;
         margin-top: 10px; 
        }
-.Nav ul{
+.nav ul{
     text-decoration: none;
     list-style-type: none;
 }
-.Nav li{
+.nav li{
     text-decoration: none;
 }
-.Nav a{
+.nav a{
     padding-right: 20px;
     padding-left: 10px;
     padding-top: 5px;
@@ -73,30 +75,18 @@ body{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font: bold;
-    color: aliceblue;
+    color: #FAF0Ca;
     font-size: medium;
     font-weight: bolder;
     transition: all 0.3s;
 
 }
-.Nav a:hover{
-    background-color: rgb(131, 113, 153);
+.nav a:hover{
+    background-color: #f4d35e;
     border-radius: 50px;
     
 }
-    .Input1{
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: row;
-        margin-top: -14px;
-        float: right;
-        }
-    
-    .InputBusqueda{
-            padding-left: 12px;
-            width: 80px;
-            height: 20px;
-    }
+  
  
 .ceramicaTitulo{
         position: absolute;
@@ -124,7 +114,7 @@ body{
         transform: scale(1.1);
     }
 
-.TamañoCarousel{
+.tamañoCarousel{
     width: 550px;
     margin-bottom: 50px;
     padding-left: 0px;
@@ -160,8 +150,10 @@ section{
     padding-right: 100px;
 }
 .novedades{
-    background-color: rgb(12, 13, 14);
-    color: aliceblue;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #FAF0Ca;
+    text-shadow: 0 0 10px black;
     position: absolute;
     padding-bottom: 20px;
     padding-right: 650px;
@@ -241,7 +233,8 @@ figcaption{
 
     footer{
             padding: 28px;
-            background-color: black;
+            background: rgb(46,47,91);
+            background: linear-gradient(94deg, rgba(46,47,91,1) 52%, rgba(80,85,129,1) 100%);
             display: flex;
             justify-content: flex-end;
             
@@ -290,33 +283,50 @@ figcaption{
     display: flex;
     justify-content:center;
     align-items: space-around;
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 50px;
-    background-color:rgb(211, 177, 243);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
     border-radius: 50px 50px 50px 50px;
     padding: 20px 146px 20px 150px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 18px;
+    margin-right: 15px;
 }
 .imgHistoria{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-right: 20px;
     border-radius: 92px 92px 92px 92px;
 }
 .sobreNosotros{
-    background-color: lightslategray;
+    background-color: black;
+    box-shadow: 0 0 10px black;
     align-content: center;
     justify-content: center;
+    border-radius: 20px;
+    margin-left: 36px;
+    margin-top: -10px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+
 }
 .tituloNosotros{
     position: absolute;
+    margin-top: -10px;
+    margin-left: 70px;
     border-radius: 30px 30px 30px 30px;
+    color: #FAF0Ca;
+    text-shadow: 0 0 10px black;
+    font-size: medium;
+    font-weight: bolder;
     background-color: lightpink;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 30px 10px 30px;
 
 }
 .historiaEmprendimiento{
+    padding-left: 70px;
+    padding-right: 20px;
+    color:#FAF0Ca;
     font-weight: bolder;
     padding-top: 50px;
     
@@ -325,32 +335,39 @@ figcaption{
 .fondo{
     background-color: aliceblue;
 }
-.Tienda{
+.tienda{
     position: absolute;
     font-weight: bolder;
-    color: rgb(12, 12, 12);
+    width: 100vw;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #FAF0Ca;
+    text-shadow: 0 0 5px black;
     display: flex;
-    padding: 12px 180px 34px 190px;
+    padding: 12px 180px 21px 224px;
+    margin-top: 10px;
+    margin-bottom: 100px;
     
 }
 
 .containerTienda{
     background-color: antiquewhite;
-    height: 140vh;
+    height: 1495px;
     width: 100vw;
-    padding-top: 73px;
-    padding-bottom: 10px;
-    padding-left: 40px;
+    padding-top: 86px;
+    padding-bottom: 100px;
+    padding-left: 72px;
     display: grid;
     align-items: start; 
     grid-template-columns: repeat(2, 227px);
-    grid-template-rows: repeat(4, 280px);
+    grid-template-rows: repeat(5, 280px);
     padding-right: 300px;
     grid-template-areas: 
     "item1 item2"
     "item3 item4"
     "item5 item6"
     "item7 item8"
+    "item9 item10"
     }
     
 .item1{
@@ -375,31 +392,12 @@ figcaption{
     width: 200px;
     height: 200px;
 }
-.img2{
-    transition: all .2s ease-in-out;
-    padding-bottom: 58px;
-    margin-right: 27px;
-    background-color: aliceblue;
-       
-}
-.img2:hover{
-    transform: scale(1.1);
-}
+
 
 .item3{
     grid-area: item3;
     width: 200px;
     height: 200px;
-}
-.img3{
-    transition: all .2s ease-in-out;
-    padding-bottom: 58px;
-    margin-right: 27px;
-    background-color: aliceblue;
-       
-}
-.img3:hover{
-    transform: scale(1.1);
 }
 
 
@@ -408,63 +406,25 @@ figcaption{
     width: 200px;
     height: 200px;
 }
-.img4{
-    transition: all .2s ease-in-out;
-    padding-bottom: 58px;
-    margin-right: 27px;
-    background-color: aliceblue;
-       
-}
-.img4:hover{
-    transform: scale(1.1);
-}
 
 .item5{
     grid-area: item5;
     width: 200px;
     height: 200px;
 }
-.img5{
-    transition: all .2s ease-in-out;
-    padding-bottom: 58px;
-    margin-right: 27px;
-    background-color: aliceblue;
-       
-}
-.img5:hover{
-    transform: scale(1.1);
-}
+
 
 .item6{
     grid-area: item6;
     width: 200px;
     height: 200px;
 }
-.img6{
-    transition: all .2s ease-in-out;
-    padding-bottom: 58px;
-    margin-right: 27px;
-    background-color: aliceblue;
-       
-}
-.img6:hover{
-    transform: scale(1.1);
-}
+
 
 .item7{
     grid-area: item7;
     width: 200px;
     height: 200px;
-}
-.img7{
-    transition: all .2s ease-in-out;
-    padding-bottom: 58px;
-    margin-right: 27px;
-    background-color: aliceblue;
-       
-}
-.img7:hover{
-    transform: scale(1.1);
 }
 
 .item8{
@@ -472,32 +432,13 @@ figcaption{
     width: 200px;
     height: 200px;
 }
-.img8{
-    transition: all .2s ease-in-out;
-    padding-bottom: 58px;
-    margin-right: 27px;
-    background-color: aliceblue;
-       
-}
-.img8:hover{
-    transform: scale(1.1);
-}
 
 .item9{
     grid-area: item9;
     width: 200px;
     height: 200px;
 }
-.img9{
-    transition: all .2s ease-in-out;
-    padding-bottom: 58px;
-    margin-right: 27px;
-    background-color: aliceblue;
-       
-}
-.img9:hover{
-    transform: scale(1.1);
-}
+
 
 .item10{
     grid-area: item9;
@@ -517,19 +458,22 @@ figcaption{
 figcaption{
     font-weight: bolder;
 }
-.Clientes1{
-    color: black;
+.clientes1{
+    color:#FAF0Ca;
+    text-shadow: 0 0 5px black;
     display: flex;
     justify-content: center;
     margin-left: -140px;
-    background-color: rgb(211, 177, 243);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin-top: 10px;
     padding-bottom: 30px;
     padding-top: 30px;
     font-family: 'Poppins', sans-serif; 
     font-weight: bolder;
     font-size: x-large;
 }
-.Video{
+.video{
     margin-left: 339px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -539,34 +483,39 @@ figcaption{
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    background-color: rgb(211, 177, 243);
+    background-color: #eeaeca;
     border: 10px;
 }
-
-.Nombre{
-    margin-left: 570px;
+.containerForm h2{
+    color:#FAF0Ca;
+    text-shadow: 0 0 5px black;
+}
+.form{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 20px;
+    margin-right: 510px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-left: 480px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nombreText{
+    margin-left: 70px;
     margin-top: 50px;
     margin-bottom: 10px;
+    
 }
-.email{
-    margin-left: 570px;
-    margin-bottom: 10px;
-}
-.telefono{
-    margin-left: 570px;
-    margin-bottom: 10px;
-}
-.Asunto{
-    margin-left: 570px;
-    margin-bottom: 10px;
-}
-.mensaje{
-    margin-left: 570px;
+.formContent{
+    margin-left: 70px;
     margin-bottom: 10px;
 }
 
-.Enviar{
-    margin-left: 570px;
+
+.enviar{
+    margin-left: 72px;
     margin-bottom: 70px;
 }
 
@@ -574,17 +523,19 @@ figcaption{
 @media  screen and (min-width: 576px) {
     .header{
         width: 100%;
+       
     }
-.Logo img{
+.logo img{
     width: 192px;
     height: 106px;
     padding-top: 17px;
     padding-left: 90px;
     margin-bottom: -55px;
+    border-radius: 0;
     
 }
 
-.Nav{
+.nav{
     padding: 10PX 80px 20px 128px;
     margin-top: -35px;
     margin-left: 50px;
@@ -595,7 +546,7 @@ figcaption{
 }
 
 
-.NavPalabras{
+.navPalabras{
     display: flex;
     float:inline-start;
     padding-right: 510px;
@@ -605,13 +556,13 @@ figcaption{
     
     
 }
-.Nav ul{
+.nav ul{
     text-decoration: none;
 }
-.Nav li{
+.nav li{
     text-decoration: none;
 }
-.Nav a{
+.nav a{
     padding-right: 20px;
     padding-left: 10px;
     padding-top: 5px;
@@ -620,35 +571,22 @@ figcaption{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font: bold;
-    color: aliceblue;
+    color: #FAF0Ca;
     font-size: medium;
     font-weight: bolder;
     
 
 }
-.Input1{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    margin-top: -40px;
-    float: right;
-    }
 
-.InputBusqueda{
-        border-radius: 20px;
-        
-        padding-left: 10px;
-        width: 122px;
-        height: 20px;
-}
 .logo{
     overflow: visible;
     padding-bottom: 30px;
     
 }
-.TamañoCarousel{
+.tamañoCarousel{
     width: 900px;
     padding-left: 20px;
+    margin-bottom: 40px;
 }
  .ceramicaTitulo{
     margin: -421px 2px 414px 297px;
@@ -716,7 +654,7 @@ figcaption{
     .bannercontainer{
             display: flex;
             position: relative;
-            padding: 0px 30px 100px 50px ;
+            padding: 12px 30px 100px 50px ;
             margin: -709px 300px 100px 856px;
         
         }
@@ -724,10 +662,10 @@ figcaption{
             margin-right: 0px;
         }
         .containerTienda{
-            background-color: antiquewhite;
-            height: 100vh;
+            background-color: #FAF0Ca;
+            height: 110vh;
             width: 100vw;
-            padding-top: 73px;
+            padding-top: 107px;
             padding-bottom: 10px;
             padding-left: 150px;
             display: grid;
@@ -741,8 +679,61 @@ figcaption{
             
             
             }
-            .Tienda{
+            .tienda{
                 padding: 12px 199px 34px 599px;
+            }
+
+            .containerHistoria{
+                display: flex;
+                justify-content:center;
+                align-items: space-around;
+                margin-top: 40px;
+                margin-bottom: 50px;
+                background: rgb(238,174,202);
+                background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+                border-radius: 50px 50px 50px 50px;
+                padding: 20px 146px 20px 150px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .imgHistoria{
+                width: 200px;
+                height: 200px;
+                margin-right: 20px;
+                border-radius: 92px 92px 92px 92px;
+            }
+            .sobreNosotros{
+                background-color: black;
+                box-shadow: 0 0 10px black;
+                align-content: center;
+                justify-content: center;
+                border-radius: 20px;
+                margin-left: 450px;
+                margin-top: -10px;
+                margin-right: 400px;
+                margin-bottom: 20px;
+            
+            }
+            .tituloNosotros{
+                position: absolute;
+                margin-top: -10px;
+                margin-left: 70px;
+                border-radius: 30px 30px 30px 30px;
+                color: #FAF0Ca;
+                text-shadow: 0 0 10px black;
+                font-size: medium;
+                font-weight: bolder;
+                background-color: lightpink;
+                padding: 10px 30px 10px 30px;
+            
+            }
+            .historiaEmprendimiento{
+                padding-left: 70px;
+                padding-right: 20px;
+                color:#FAF0Ca;
+                font-weight: bolder;
+                padding-top: 50px;
+                
             }
 
 }
