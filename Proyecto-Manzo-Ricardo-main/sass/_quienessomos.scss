@@ -1,0 +1,52 @@
+.containerHistoria{
+    display: flex;
+    justify-content:center;
+    align-items: space-around;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background: $colorGradiente2;
+    background: $gradiente2;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 146px 20px 150px;
+    margin-left: 18px;
+    margin-right: 15px;
+}
+.imgHistoria{
+    width: 87px;
+    height: 82px;
+    margin-right: 20px;
+    border-radius: 92px 92px 92px 92px;
+}
+.sobreNosotros{
+    background-color: black;
+    box-shadow: 0 0 10px black;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 36px;
+    margin-top: -10px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+
+}
+.tituloNosotros{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 70px;
+    border-radius: 30px 30px 30px 30px;
+    color: $color1;
+    text-shadow: 0 0 10px black;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: lightpink;
+    padding: 10px 30px 10px 30px;
+
+}
+.historiaEmprendimiento{
+    padding-left: 70px;
+    padding-right: 20px;
+    color:$color1;
+    font-weight: bolder;
+    padding-top: 50px;
+    
+}

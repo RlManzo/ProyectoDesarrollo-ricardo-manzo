@@ -1,0 +1,54 @@
+.logo{
+    overflow: visible;
+    padding-bottom: 30px;
+    img{
+        width: 95px;
+        height: 79px;
+        padding-top: -56px;
+        padding-left: 5px;
+        margin-bottom: -55px;
+        border-radius: 50%;
+        
+    }
+}
+
+    
+.nav{
+        padding: 1PX 20px 20px 128px;
+        margin-top: -35px;
+        margin-left: 7px;
+       ul{
+              text-decoration: none;
+              list-style-type: none;
+                     li{
+                       text-decoration: none;
+                       a{
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font: bold;
+    color: $color1;
+    font-size: medium;
+    font-weight: bolder;
+    transition: all 0.3s;   
+                       }
+         
+                    }
+        }
+    }
+ .nav a:hover{
+     background-color: #f4d35e;
+    border-radius: 50px;   
+    } 
+.navPalabras{
+        display: flex;
+        float:inline-start;
+        padding-right: 510px;
+        
+     } 
+    
+    

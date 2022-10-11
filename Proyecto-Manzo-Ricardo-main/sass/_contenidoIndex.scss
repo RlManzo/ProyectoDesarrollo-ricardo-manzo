@@ -1,0 +1,172 @@
+.ceramicaTitulo{
+    position: absolute;
+    color: aliceblue;
+    margin: -222px -22px 222px 131px;
+    font-weight: bolder;
+    font-size: 37px;
+    text-shadow: 0 0 10px black;
+    transition: all .3s ease-in-out;
+
+}
+    .ceramicaTitulo:hover{
+    transform: scale(1.1);
+}
+
+.almohadonTitulo{
+    position: absolute;
+    color: aliceblue;
+    margin: -222px -22px 222px 83px;
+    font-weight: bolder;
+    font-size: 37px;
+    text-shadow: 0 0 10px black;
+    transition: all .3s ease-in-out;
+}
+.almohadonTitulo:hover{
+    transform: scale(1.1);
+}
+
+.tamañoCarousel{
+width: 550px;
+margin-bottom: 50px;
+padding-left: 0px;
+box-shadow: 5px 8px 12px rgb(147, 147, 202);
+border-radius: 5px;
+
+}
+.bannercontainer{
+display: flex;
+position: relative;
+padding: 44px 39px -5px 12px ;
+margin: -27px 340px 67px 130px;
+img{
+    width: 290px;
+    height: 452px;
+    border-radius: 5px;
+    padding-left: 0px;
+    box-shadow: 5px 8px 12px rgb(147, 147, 202);
+}
+}
+
+
+.nuestrasOfertas{
+    background-color: white;
+    color:black;
+    text-shadow: 0 0 10px black;
+    position: absolute;
+    padding-bottom: 20px;
+    padding-right: 810px;
+    padding-top: 20px;
+    margin: -50px 100px 200px;
+    padding-left: 257px;
+    margin-left: 0px;
+    font-weight: bolder;
+}
+.posibilidadesContainer{
+background-color: white;
+padding-right: 1446px;
+
+}
+.posibilidades{
+width: 551px;
+height: 202px;
+margin-bottom: 32px;
+padding-left: 30px;
+}
+   
+section{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-color:rgb(252, 250, 247);
+padding-top: 50px;
+margin-top: 0px;
+padding-left: 54px;
+padding-bottom: 50px;
+padding-right: 100px;
+}
+.novedades{
+background: $colorGradiente2;
+background: $gradiente2;
+color: $color1;
+text-shadow: 0 0 10px black;
+position: absolute;
+padding-bottom: 20px;
+padding-right: 650px;
+padding-top: 20px;
+margin: -101px 200px 200px;
+padding-left: 202px;
+margin-left: -54px;
+font-weight: bolder;
+}
+
+figcaption{
+position: absolute;
+
+}
+.remera{
+width: 268px;
+height: 191px;
+position: absolute;
+padding-right: 50px;
+margin-right: 50px;
+border-right: 2px;
+
+}
+.remeratitle{
+padding: 196px 250px -1px;
+font-weight: bolder;
+margin-left: 238px;
+margin-top: 195px;
+}
+
+.polimero{
+width: 198px;
+height: 191px;
+padding-right: 55px;
+margin-right: 34px;
+border-right: 2px;
+border-color: black;
+border-right-style: groove;
+}
+.polimeroTitle{
+padding: 196px 0px 100px;
+font-weight: bolder;
+}    
+
+.mate{
+width: 198px;
+height: 177px;
+padding-right: 27px;
+margin-right: 72px;
+border-right: 2px;
+border-color: black;
+border-right-style: groove; 
+margin-top: 50px;
+
+ }
+
+
+.mateTitle{
+padding: 447px 0px 100px;
+margin-left: -20px;
+font-weight: bolder;
+}
+
+.jarro{
+width: 173px;
+height: 200x;
+padding-right: 27px;
+margin-right: 72px;
+margin-top: -228px;
+margin-left: 265px;
+}
+.jarroTitle{
+padding: 444px 285px 100px;
+margin-right: 30px;
+font-weight: bolder;
+
+} 
+
+
+
+
