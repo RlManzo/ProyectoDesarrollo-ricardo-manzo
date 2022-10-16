@@ -1,9 +1,9 @@
 .ceramicaTitulo{
     position: absolute;
     color: aliceblue;
-    margin: -222px -22px 222px 131px;
+    margin: -152px -22px 222px 110px;
     font-weight: bolder;
-    font-size: 37px;
+    font-size: 22px;
     text-shadow: 0 0 10px black;
     transition: all .3s ease-in-out;
 
@@ -15,9 +15,9 @@
 .almohadonTitulo{
     position: absolute;
     color: aliceblue;
-    margin: -222px -22px 222px 83px;
+    margin: -159px -22px 222px 83px;
     font-weight: bolder;
-    font-size: 37px;
+    font-size: 22px;
     text-shadow: 0 0 10px black;
     transition: all .3s ease-in-out;
 }
@@ -26,7 +26,7 @@
 }
 
 .tamañoCarousel{
-width: 550px;
+width: 360px;
 margin-bottom: 50px;
 padding-left: 0px;
 box-shadow: 5px 8px 12px rgb(147, 147, 202);
@@ -37,10 +37,10 @@ border-radius: 5px;
 display: flex;
 position: relative;
 padding: 44px 39px -5px 12px ;
-margin: -27px 340px 67px 130px;
+margin: -27px 340px 67px 78px;
 img{
-    width: 290px;
-    height: 452px;
+    width: 215px;
+    height: 319px;
     border-radius: 5px;
     padding-left: 0px;
     box-shadow: 5px 8px 12px rgb(147, 147, 202);
@@ -49,26 +49,27 @@ img{
 
 
 .nuestrasOfertas{
+    width: 100%;
     background-color: white;
     color:black;
     text-shadow: 0 0 10px black;
     position: absolute;
-    padding-bottom: 20px;
-    padding-right: 810px;
+    padding-bottom: 5px;
+    padding-right: 113px;
     padding-top: 20px;
     margin: -50px 100px 200px;
-    padding-left: 257px;
+    padding-left: 146px;
     margin-left: 0px;
     font-weight: bolder;
 }
 .posibilidadesContainer{
 background-color: white;
-padding-right: 1446px;
+padding-right: 360px;
 
 }
 .posibilidades{
-width: 551px;
-height: 202px;
+width: 342px;
+height: 161px;
 margin-bottom: 32px;
 padding-left: 30px;
 }
@@ -80,22 +81,24 @@ flex-wrap: wrap;
 background-color:rgb(252, 250, 247);
 padding-top: 50px;
 margin-top: 0px;
-padding-left: 54px;
+padding-left: 39px;
 padding-bottom: 50px;
 padding-right: 100px;
+
 }
 .novedades{
+  width: 100%;  
 background: $colorGradiente2;
 background: $gradiente2;
 color: $color1;
 text-shadow: 0 0 10px black;
 position: absolute;
 padding-bottom: 20px;
-padding-right: 650px;
+padding-right: 120px;
 padding-top: 20px;
-margin: -101px 200px 200px;
-padding-left: 202px;
-margin-left: -54px;
+margin: -101px 0px 200px;
+padding-left: 120px;
+margin-left: -38px;
 font-weight: bolder;
 }
 
@@ -104,24 +107,25 @@ position: absolute;
 
 }
 .remera{
-width: 268px;
-height: 191px;
+width: 123px;
+height: 131px;
 position: absolute;
-padding-right: 50px;
-margin-right: 50px;
+padding-right: 0px;
+margin-right: 0px;
 border-right: 2px;
 
 }
 .remeratitle{
 padding: 196px 250px -1px;
 font-weight: bolder;
-margin-left: 238px;
-margin-top: 195px;
+font-size: 13px;
+margin-left: 185px;
+margin-top: 147px;
 }
 
 .polimero{
-width: 198px;
-height: 191px;
+width: 150px;
+height: 139px;
 padding-right: 55px;
 margin-right: 34px;
 border-right: 2px;
@@ -129,15 +133,16 @@ border-color: black;
 border-right-style: groove;
 }
 .polimeroTitle{
-padding: 196px 0px 100px;
+padding: 150px 0px 100px;
 font-weight: bolder;
+font-size: 13px;
 }    
 
 .mate{
-width: 198px;
-height: 177px;
-padding-right: 27px;
-margin-right: 72px;
+width: 155px;
+height: 125px;
+padding-right: 44px;
+margin-right: 50px;
 border-right: 2px;
 border-color: black;
 border-right-style: groove; 
@@ -147,24 +152,26 @@ margin-top: 50px;
 
 
 .mateTitle{
-padding: 447px 0px 100px;
+padding: 339px 5px 100px;
 margin-left: -20px;
 font-weight: bolder;
+font-size: 12px;
 }
 
 .jarro{
-width: 173px;
+width: 134px;
 height: 200x;
 padding-right: 27px;
-margin-right: 72px;
-margin-top: -228px;
-margin-left: 265px;
+margin-right: 0px;
+margin-top: -170px;
+margin-left: 177px;
 }
 .jarroTitle{
-padding: 444px 285px 100px;
+padding: 338px 35px 100px;
+padding-left: 174px;
 margin-right: 30px;
 font-weight: bolder;
-
+font-size: 12px;
 } 
 
 

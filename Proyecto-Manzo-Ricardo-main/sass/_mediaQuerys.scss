@@ -1,138 +1,130 @@
-@media screen and (min-width: 576px) and (max-width: 767px) {
-    .header {
+@media screen and (min-width: 523px) and (max-width: 767px) {
+    header{
       width: 100%;
     }
-    .logo img {
-      width: 123px;
-      height: 106px;
-      padding-top: 17px;
-      padding-left: 18px;
-      margin-bottom: -47px;
-      border-radius: 0;
+    body{
+      width: 100%;
     }
-    .nav {
-      padding: 10PX 80px 20px 128px;
-      margin-top: -35px;
-      margin-left: 28px;
-      overflow: hidden;
-      text-decoration: none;
+    footer{
+      width: 100%;
     }
-    .navPalabras {
-      display: flex;
-      float: inline-start;
-      padding-right: 510px;
-      justify-content: space-evenly;
-      list-style-type: none;
-    }
-    .nav ul {
-      text-decoration: none;
-      font-size: smaller;
-    }
-    .nav li {
-      text-decoration: none;
-    }
-    .nav a {
-      padding-right: 20px;
-      padding-left: 10px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      margin-top: 10px;
-      text-decoration: none;
-      font-family: "Poppins", sans-serif;
-      font: bold;
-      color: #FAF0Ca;
-      font-size: medium;
-      font-weight: bolder;
-    }
-    .logo {
-      overflow: visible;
-      padding-bottom: 0px;
-      padding-left: 10px;
-    }
+  
     .tamañoCarousel {
-      width: 670px;
-      padding-left: 20px;
+      width: 570px;
+      padding-left: 10px;
       margin-bottom: 40px;
     }
     .ceramicaTitulo {
       margin: -275px 2px 414px 207px;
+      font-size: 37px;
     }
     .almohadonTitulo {
       margin: -274px 2px 414px 158px;
+      font-size: 37px;
     }
     .bannercontainer {
       display: flex;
       position: relative;
-      padding: 0px 30px 100px 50px;
-      margin: -709px 300px 100px 856px;
+      padding: 44px 39px -5px 12px;
+      margin: -30px 200px 76px 180px;
+    }
+    .bannercontainer img{
+      width: 296px;
+      height: 424px;
     }
     .novedades {
-      padding-left: 610px;
+      width: 100%;
+      padding-left: 220px;
+      margin-top: -106px;
+      padding-right: 197px;
+      margin-right: 0px;
+    
     }
     .section {
       padding-left: 130px;
       flex-wrap: nowrap;
+      padding-bottom: 72px;
     }
     .remera {
       position: none;
+      width: 193px;
+height: 162px;
+position: absolute;
+padding-right: 50px;
+margin-right: 0px;
+border-right: 2px;
     }
     .remeratitle {
-      padding: 196px 250px 120px;
+      padding: 196px 190px 120px;
       margin-left: 0px;
       margin-top: 0px;
     }
+
+    .polimero{
+      width: 188px;
+      height: 164px;
+      padding-right: 55px;
+      margin-right: 34px;
+      border-right: 2px;
+      border-color: black;
+      border-right-style: groove;
+      }
+      .polimeroTitle{
+      padding: 196px 0px 100px;
+      font-weight: bolder;
+      }
     .mate {
-      width: 251px;
-      height: 191px;
+      width: 181px;
+      height: 156px;
       padding-right: 44px;
       margin-right: 50px;
       border-right: 2px;
-      margin-left: 317px;
-      margin-top: 0px;
+      margin-left: -215px;
+      margin-top: 274px;
       border-color: black;
       border-right-style: groove;
     }
     .mateTitle {
-      padding: 196px 559px 100px;
+      padding: 437px 3px 100px;
       margin-left: 0px;
+      font-size: 13px;
     }
     .jarro {
-      width: 173px;
+      width: 134px;
       height: 200x;
       padding-right: 0px;
       margin-right: 0px;
-      margin-top: 0px;
+      margin-top: 267px;
       margin-left: 0px;
     }
     .jarroTitle {
-      padding: 186px 866px 100px;
-      margin-right: 100px;
+      padding: 438px 144px 100px 210px;
+      margin-right: 0px;
+      font-size: 13px;
     }
     .banner {
       width: 409px;
       height: 520px;
-    }
-    .bannercontainer {
-      display: flex;
-      position: relative;
-      padding: 12px 30px 100px 50px;
-      margin: -709px 300px 100px 856px;
-    }
+   
+   }
     .iconoChoqueFooter {
       margin-right: 1145px;
     }
     .nuestrasOfertas {
-      padding-left: 500px;
+      width: 100%;
+      padding-left: 167px;
+      padding-right: 216px;
+      margin-right: 0px;
     }
     .posibilidadesContainer {
       background-color: white;
-      padding-right: 1446px;
+      padding-right: 360px;
     }
     .posibilidades {
-      width: 1083px;
-      height: 264px;
+      width: 576px;
+      height: 238px;
       margin-bottom: 43px;
-      padding-left: 200px;
+      padding-left: 28px;
     }
     .iconInstagram {
       margin-right: 0px;
@@ -216,55 +208,10 @@
       margin-left: 0px;
     }
   }
-  @media all and (min-width: 768px) {
-    .header {
-      width: 100%;
-    }
-    .logo img {
-      width: 192px;
-      height: 106px;
-      padding-top: 17px;
-      padding-left: 90px;
-      margin-bottom: -55px;
-      border-radius: 0;
-    }
-    .nav {
-      padding: 10PX 80px 20px 128px;
-      margin-top: -35px;
-      margin-left: 70px;
-      overflow: hidden;
-      text-decoration: none;
-    }
-    .navPalabras {
-      display: flex;
-      float: inline-start;
-      padding-right: 510px;
-      justify-content: space-evenly;
-      list-style-type: none;
-    }
-    .nav ul {
-      text-decoration: none;
-    }
-    .nav li {
-      text-decoration: none;
-    }
-    .nav a {
-      padding-right: 20px;
-      padding-left: 10px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      margin-top: 10px;
-      text-decoration: none;
-      font-family: "Poppins", sans-serif;
-      font: bold;
-      color: #FAF0Ca;
-      font-size: medium;
-      font-weight: bolder;
-    }
-    .logo {
-      overflow: visible;
-      padding-bottom: 30px;
-    }
+  @media all and (min-width: 767px) and (max-width: 1660px){
+
+  
+   
     .tamañoCarousel {
       width: 900px;
       padding-left: 20px;
@@ -272,9 +219,11 @@
     }
     .ceramicaTitulo {
       margin: -421px 2px 414px 297px;
+      font-size: 40px;
     }
     .almohadonTitulo {
       margin: -421px 2px 414px 297px;
+      font-size: 40px;
     }
     .bannercontainer {
       display: flex;
@@ -285,20 +234,43 @@
     
     .section {
       padding-left: 130px;
+      margin-right: 0px;
       flex-wrap: nowrap;
-     
+     padding-bottom: 50px;
     } 
     .novedades{
       padding-left: 610px;
+      padding-right: 530px;
+      margin-right: 0px;
+    
     }
     .remera {
-      position: none;
+      width: 268px;
+      height: 191px;
+      position: absolute;
+      margin-right: 50px;
+      padding: -30px 200px 200px 100px;
+
     }
     .remeratitle {
       padding: 196px 250px 120px;
       margin-left: 0px;
       margin-top: 0px;
     }
+    .polimero{
+      width: 198px;
+      height: 191px;
+      padding-right: 55px;
+      margin-right: 34px;
+      border-right: 2px;
+      border-color: black;
+      border-right-style: groove;
+      }
+      .polimeroTitle{
+      padding: 196px 0px 100px;
+      font-weight: bolder;
+      }    
+      
     .mate {
       width: 251px;
       height: 191px;
@@ -311,8 +283,9 @@
       border-right-style: groove;
     }
     .mateTitle {
-      padding: 196px 559px 100px;
+      padding: 196px 449px 100px;
       margin-left: 0px;
+      padding-left: 560px;
     }
     .jarro {
       width: 173px;
@@ -323,7 +296,8 @@
       margin-left: 0px;
     }
     .jarroTitle {
-      padding: 186px 866px 100px;
+      padding: 195px 64px 100px;
+      padding-left: 822px;
       margin-right: 100px;
     }
     .bannercontainer {
@@ -337,11 +311,14 @@
     }
     }
     .nuestrasOfertas {
-      padding-left: 540px;
+      padding-left: 605px;
+      padding-right: 520px;
+      margin-right: 0px;
     }
     .posibilidadesContainer {
       background-color: white;
-      padding-right: 1446px;
+      padding-right: 1038px;
+      
     }
     .posibilidades {
       width: 1083px;
@@ -365,13 +342,88 @@
       grid-template-columns: repeat(5, 227px);
       grid-template-rows: repeat(2, 280px);
       padding-right: 300px;
-      grid-template-areas: "item1 item2 item3 item4 item5" "item6 item7 item8 item9 item10";
+      grid-template-areas: 
+      "item1 item2 item3 item4 item5" 
+      "item6 item7 item8 item9 item10";
     }
     .tienda {
       padding: 12px 199px 34px 250px;
       justify-content: none;
 
     }
+    .img1 figcaption{
+      font-size: 16px;
+    }
+    .img1 p{
+      margin-left:47px;
+
+    }
+    
+.item1{
+  grid-area: item1;
+  width: 200px;
+  height: 200px;      
+}
+
+.item2{
+  grid-area: item2;
+  width: 200px;
+  height: 200px;
+}
+
+
+.item3{
+  grid-area: item3;
+  width: 200px;
+  height: 200px;
+}
+
+
+.item4{
+  grid-area: item4;
+  width: 200px;
+  height: 200px;
+}
+
+.item5{
+  grid-area: item5;
+  width: 200px;
+  height: 200px;
+}
+
+
+.item6{
+  grid-area: item6;
+  width: 200px;
+  height: 200px;
+}
+
+
+.item7{
+  grid-area: item7;
+  width: 200px;
+  height: 200px;
+}
+
+.item8{
+  grid-area: item8;
+  width: 200px;
+  height: 200px;
+}
+
+.item9{
+  grid-area: item9;
+  width: 200px;
+  height: 200px;
+}
+
+
+.item10{
+  grid-area: item9;
+  width: 200px;
+  height: 200px;
+  
+  }
     .containerHistoria {
       display: flex;
       justify-content: center;
@@ -430,7 +482,13 @@
       height: 100vh;
       margin-left: 339px;
     }
+    .video iframe{
+      width: 700px;
+      height: 500px;
+    }
     .clientes1 {
       margin-left: -140px;
     }
+  
+  
   }

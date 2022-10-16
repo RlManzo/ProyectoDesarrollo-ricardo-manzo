@@ -23,12 +23,12 @@
     width: 100vw;
     padding-top: 86px;
     padding-bottom: 100px;
-    padding-left: 72px;
-    margin-bottom: 50px;
+    padding-left: 23px;
+    margin-bottom: 0px;
     display: grid;
     align-items: start; 
-    grid-template-columns: repeat(2, 227px);
-    grid-template-rows: repeat(5, 280px);
+    grid-template-columns: repeat(2, 172px);
+    grid-template-rows: repeat(5, 284px);
     padding-right: 300px;
     grid-template-areas: 
     "item1 item2"
@@ -47,13 +47,14 @@
     background-color: white;
    figcaption{
         padding-left: 20px;
+        font-size: 13px;
         
      }
              p{
                position: absolute;
                color: aliceblue;
                font-weight: bold;
-               margin-left: 47px;
+               margin-left: 22px;
                margin-top: 37px;
                margin-bottom: 5px;
                padding-left: 18px;
@@ -70,67 +71,67 @@
 
 .item1{
     grid-area: item1;
-    width: 200px;
-    height: 200px;      
+    width: 145px;
+    height: 166px;      
 }
 
 .item2{
     grid-area: item2;
-    width: 200px;
-    height: 200px;
+    width: 145px;
+    height: 166px;
 }
 
 
 .item3{
     grid-area: item3;
-    width: 200px;
-    height: 200px;
+    width: 145px;
+    height: 166px;
 }
 
 
 .item4{
     grid-area: item4;
-    width: 200px;
-    height: 200px;
+    width: 145px;
+    height: 166px;
 }
 
 .item5{
     grid-area: item5;
-    width: 200px;
-    height: 200px;
+    width: 145px;
+    height: 166px;
 }
 
 
 .item6{
     grid-area: item6;
-    width: 200px;
-    height: 200px;
+    width: 145px;
+    height: 166px;
 }
 
 
 .item7{
     grid-area: item7;
-    width: 200px;
-    height: 200px;
+    width: 144px;
+    height: 166px;
 }
 
 .item8{
     grid-area: item8;
-    width: 200px;
-    height: 200px;
+    width: 145px;
+    height: 166px;
 }
 
 .item9{
     grid-area: item9;
-    width: 200px;
-    height: 200px;
+    width: 145px;
+    height: 166px;
 }
 
 
 .item10{
     grid-area: item9;
-    width: 200px;
-    height: 200px;
+    width: 145px;
+    height: 166px;
 }
 .img10{
     transition: all .2s ease-in-out;
